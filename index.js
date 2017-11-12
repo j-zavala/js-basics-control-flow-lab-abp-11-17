@@ -27,7 +27,7 @@ const switchOnCharmFromTip = (tip) => {
   else if (tip !== 'generous') {
     return 'Thank you.'
   }
-  else {
+  else if (tip === 'anything else'){
     return 'Bye.'
   }
 };
