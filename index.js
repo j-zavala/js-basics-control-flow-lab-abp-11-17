@@ -11,6 +11,8 @@ function scuberGreetingForFeet(height) {
   }
 }
 
-const ternaryCheckCity = () => {
-  
+const ternaryCheckCity = (city) => {
+  if (city === 'NYC') {
+    return 'Ok, sounds good.'
+  }
 };
