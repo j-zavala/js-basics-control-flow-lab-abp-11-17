@@ -19,3 +19,9 @@ const ternaryCheckCity = (city) => {
     return 'No go.'
   }
 };
+
+const switchOnCharmFromTip = (tip) => {
+  if (tip === 'generous') {
+    return 'Thank you so much.'
+  }
+};
